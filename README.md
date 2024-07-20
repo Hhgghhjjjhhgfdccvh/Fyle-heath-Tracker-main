@@ -79,6 +79,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 - You can also Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code Coverage
+
+The project includes unit tests for the `AppComponent`  achieving code coverage. This ensures that all lines, branches, and functions of the code are tested. The detailed coverage report is available in the `coverage` directory.
+
+**Coverage Summary:**
+**- Statements**   : `62.96% ( 34/54 )`
+**Branches     :** `21.42% ( 3/14 )`
+**Functions    :** `63.63% ( 14/22 )`
+**Lines      :** `62.5% ( 30/48 )`
+
+
+You can view the full report by opening the `coverage/index.html` file.
+
+
 ## Usage
 
 - Navigate to the Add Workout page.

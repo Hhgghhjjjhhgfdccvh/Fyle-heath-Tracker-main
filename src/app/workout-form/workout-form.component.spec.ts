@@ -13,7 +13,7 @@ describe('WorkoutFormComponent', () => {
 
     await TestBed.configureTestingModule({
       imports: [FormsModule],
-      declarations: [WorkoutFormComponent],
+    
       providers: [{ provide: Router, useValue: routerSpy }]
     }).compileComponents();
 
